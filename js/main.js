@@ -1,0 +1,1 @@
+async function checkName(){const uid=document.getElementById('uid').value;const r=await fetch(APP_API.info+'?uid='+encodeURIComponent(uid));document.getElementById('name').innerText=await r.text();}

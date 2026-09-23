@@ -1,0 +1,1 @@
+function login(e,p){return auth.signInWithEmailAndPassword(e,p)}function signup(e,p){return auth.createUserWithEmailAndPassword(e,p)}
